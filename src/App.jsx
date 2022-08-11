@@ -21,7 +21,7 @@ export const App = () => {
     if(nombre === "" || contrasena === "") {
         setError(true);
         return;
-    }
+    };
     setError(false);
     setContrasena("");
     setNombre("");
@@ -40,4 +40,4 @@ export const App = () => {
     />
     </>
   )
-}
+};
